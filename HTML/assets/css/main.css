@@ -334,6 +334,13 @@ header #menu-btn:hover{
     border: 1rem solid var(--purple);
 }
 
+@media (max-width: 768px) {
+   .about .image {
+      display: none;
+    }
+  }
+  
+
 .about .content{
     -webkit-box-flex: 1;
     -ms-flex: 1 1 55rem;
@@ -1128,8 +1135,30 @@ footer .social .fab{
     align-items: center;
     margin: 0 0.5rem;
 }
+footer .social .fas{
+    background-color: var(--black);
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    color: var(--white);
+    font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 0.5rem;
+}
 
 footer .social .fab:hover{
+    color: var(--black);
+    background-color: var(--white);
+}
+footer .social .fas:hover{
     color: var(--black);
     background-color: var(--white);
 }
@@ -1183,29 +1212,20 @@ footer .content p span{
 
 /*--------------------- 13- Scroll-Top (End) ---------------------*/
 
-.div_habilidades-pd img {
-    max-width: 80px; /* Tamaño máximo para las imágenes */
-    margin-bottom: 10px; /* Margen inferior para separar las imágenes */
-}
-
 .div_habilidades-df {
-    display: flex; /* Mostrar los elementos en una fila */
-    flex-direction: row;
-    flex-wrap: wrap; /* Envolver elementos en varias filas si no caben en una sola */
-    justify-content: space-evenly; /* Espacio igual entre los elementos */
-    align-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .div_habilidades-pd {
-    flex:  0 0 calc(33.33% - 20px) ;/* Tamaño inicial de 200px y no se redimensionan */
-    margin: 10px; /* Espacio entre las imágenes */
+  flex: 0 0 auto;
+  margin: 10px;
 }
 
 .div_habilidades-pd img {
-    max-width: 100px; /* Tamaño máximo para las imágenes */
-    margin-bottom: 10px; /* Margen inferior para separar las imágenes */
-    width: 100%; /* La imagen ocupa todo el espacio disponible */
-    height: auto; /* Altura se ajusta automáticamente para mantener relación de aspecto */
-    flex-direction: row;
-    
+  max-width: 80px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
 }
