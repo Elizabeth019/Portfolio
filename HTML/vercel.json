@@ -6,6 +6,6 @@
     { "src": "css/responsive.css", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/HTML", "dest": "/index.html" }
   ]
 }
