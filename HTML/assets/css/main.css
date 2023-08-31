@@ -796,6 +796,34 @@ header #menu-btn:hover{
             transform: scale(1.2);
 }
 
+.link_portfolio{
+    justify-content: space-evenly;
+    display: flex;
+    flex-grow: 0;
+    /*align-items: center;
+    flex-direction: row;
+     margin-right: 180px; */
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.link_portfolio h3{
+    color: var(--white);
+}
+.link_portfolio h3:hover{
+    color: var(--purple);
+}
+.left{
+    margin-right: 85px;
+}
+.medium{
+    margin-right: 80px;
+    pointer-events: none;
+
+}
+.right{
+    margin-right: 30px;
+}
 /*CSS3 Animation Effects for Magnific Popup*/
 
 /* start state */
