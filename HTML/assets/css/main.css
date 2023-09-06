@@ -650,6 +650,12 @@ header #menu-btn:hover{
 
 
 /*--------------------- 8- Portfolio Area CSS (Start) ---------------------*/
+
+.portfolio_center{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .controls{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -683,6 +689,7 @@ header #menu-btn:hover{
     grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
     gap: 0.5rem;
     padding: 2rem 0; 
+    flex-wrap: wrap;
 }
 
 .portfolio-item{
@@ -807,23 +814,15 @@ header #menu-btn:hover{
     margin-top: 0px;
     font-size: 14px;
 }
-.link_portfolio h3{
+.link_a{
+    display: inline-flex;
+    margin-left: 110px;
     color: var(--white);
 }
-.link_portfolio h3:hover{
+.link_a:hover{
     color: var(--purple);
 }
-.left{
-    margin-right: 85px;
-}
-.medium{
-    margin-right: 80px;
-    pointer-events: none;
 
-}
-.right{
-    margin-right: 30px;
-}
 /*CSS3 Animation Effects for Magnific Popup*/
 
 /* start state */
