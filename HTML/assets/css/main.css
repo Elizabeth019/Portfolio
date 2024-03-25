@@ -1239,7 +1239,7 @@ footer .content p span{
 
 /*--------------------- 13- Scroll-Top (End) ---------------------*/
 
-.div_habilidades-df {
+/* .div_habilidades-df {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1255,4 +1255,23 @@ footer .content p span{
   margin-bottom: 10px;
   width: 100%;
   height: auto;
-}
+} */
+
+
+.div_habilidades-df {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .div_habilidades-pd {
+    flex-basis: calc(18% - 10px);
+    margin: 10px;
+  }
+  
+  .div_habilidades-pd img {
+    max-width: 80px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+  }
